@@ -168,7 +168,7 @@ async function handleCommand(result) {
         Vault.requirePassword(true) //for encryption of private key !
 
         var infura_provider_url = 'https://ropsten.infura.io/gmXEVo5luMPUGPqg6mhy';
-        var ropsten_contract_address = ContractInterface.networks.testnet.contracts._0xbitcointoken.blockchain_address
+        var ropsten_contract_address = ContractInterface.networks.testnet.contracts._eticarelease.blockchain_address
 
         Vault.setWeb3ProviderUrl(infura_provider_url);
         Vault.selectContract(ropsten_contract_address);

@@ -2,9 +2,9 @@ var web3utils = require('web3-utils');
 const BN = require('bn.js');
 var debugLogger = require('./lib/debug-logger')
 const miningLogger = require("./lib/mining-logger");
-var tokenContractJSON = require('./contracts/_0xBitcoinToken.json');
+var tokenContractJSON = require('./contracts/EticaRelease.json');
 var CPPMiner = require('./build/Release/hybridminer');
-var donationPercent = 1.5;                                 // Please support the developers! :)
+var donationPercent = 0.0;                                 // Please support the developers! :)
                                                            // Valid Settings: 0 to 70 in increments of 0.5
 
 //only load this if selecting 'gpu mine!!!'
