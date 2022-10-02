@@ -17,7 +17,7 @@
         "cpp/hybridminer/cudasolver.cpp",
         "cpp/hybridminer/cuda_sha3.cu"
       ],
-      'cflags_cc+': [ '-march=native', '-O3', '-std=c++11' ],
+      'cflags_cc+': [ '-O3', '-std=c++11' ],
 
       "include_dirs": ["<!(node -e \"require('nan')\")"],
 
